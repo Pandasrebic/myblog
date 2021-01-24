@@ -71,11 +71,17 @@ body {
     width: 100%;
     background: linear-gradient(yellow, red);
 }
+#therest{
+    background: linear-gradient(red, lightpink)
+}
 
 h1 {
     font-size: 40px;
     line-height: 1.2;
 
+}
+h4{
+    font-size: 35px;
 }
 
 p1 {
@@ -98,10 +104,47 @@ p2{
     padding: 50px;
     font-size: 40px;
 }
+img{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+    
+}
+img:hover{
+    transform: scale(0.9);
+}
+p3{
+    font-weight: bold;
+    font-size: 35px;
+}
 #videos{
     padding-top: 120px;
     color: black;
     visibility: visible;
+}
+#woahhh{
+    width=700px;
+}
+#sunset{
+    width: 500px;
+    height: 500px;
+}
+#huh{
+    width: 500px;
+    height: 500px;
+}
+#kozlowska{
+    width: 800px;
+    height: 500px;
+}
+#idk{
+    width: 500px;
+    height: 500px;
+}
+#send{
+    font-size: 25px;
+}
+#follow{
+    font-size: 25px;
 }
 html {
     scroll-behavior: smooth;
